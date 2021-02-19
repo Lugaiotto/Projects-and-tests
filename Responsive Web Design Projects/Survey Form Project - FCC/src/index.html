@@ -1,0 +1,241 @@
+
+<head>
+
+<!-- Google Fonts link -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet"
+
+<!-- Comment for Style CSS Link  -->
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+ <!-- Application Logo/Description  -->
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Justice League Hero Application</h1>
+    <p id="description" class="description text-center">
+      Thank you for taking your time to help us save the world
+    </p>
+  </header>
+
+   <!-- General Info Form -->
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Hero Name</label>
+      <input
+        type="text"
+        name="hero name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your hero name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email (Not the personal one)</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Hero Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="1"
+        max="9999"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+
+    <!-- Current Role Form -->
+    <div class="form-group">
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="side kick">Side Kick</option>
+        <option value="full time hero">Full Time Hero </option>
+        <option value="part time hero">Part Time Hero (We understand)</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other (Alien?)</option>
+      </select>
+    </div>
+
+      <!-- Reccomendation Form -->
+    <div class="form-group">
+      <p>Would you recommend Justice League to a friend?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not sure</label
+      >
+    </div>
+
+      <!-- Fav Features Form -->
+    <div class="form-group">
+      <p>
+        What is your favorite feature in our HQ?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">New challenges everyday (even if you dont want it)</option>
+        <option value="batcomputer">Batman's Supercomputer</option>
+        <option value="communitydiversity">Diversity of the Hero Community</option>
+        <option value="dinner">Dinner Area</option>
+      </select>
+    </div>
+
+      <!-- Improvement Options Form -->
+    <div class="form-group">
+      <p>
+        What would you like to see improved?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="bat_signal_range"
+          type="checkbox"
+          class="input-checkbox"
+        />Bat-signal range</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="tools_weapons_dev"
+          type="checkbox"
+          class="input-checkbox"
+        />Tools and weapons development</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="cyborg_sw"
+          type="checkbox"
+          class="input-checkbox"
+        />Cyborg's Software</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="training"
+          type="checkbox"
+          class="input-checkbox"
+        />Training with common folks (Superman is so hard).</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="marvel_crossover_never"
+          type="checkbox"
+          class="input-checkbox"
+        />Marvel's crossover</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="sniders_cut_hope"
+          type="checkbox"
+          class="input-checkbox"
+        />Snider's cut trailer</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="flash_delivery"
+          type="checkbox"
+          class="input-checkbox"
+        />Flash's delivery time</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="city-meetups"
+          type="checkbox"
+          class="input-checkbox"
+        />City Meetups</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="batcomputer_db"
+          type="checkbox"
+          class="input-checkbox"
+        />Batman Supercomputer Criminal Database</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="villains_rly?"
+          type="checkbox"
+          class="input-checkbox"
+        />New villains to fight (some of them we created by mistake, HR is aware of that)</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="additional-courses"
+          type="checkbox"
+          class="input-checkbox"
+        />Additional Courses</label
+      >
+    </div>
+
+      <!-- Comments/Suggestions Form -->
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+
+          <!-- Submit Button -->
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+
+
+        <!-- Copyright Footer -->
+    <footer>
+      Justice League all rights reserved ©
+   </footer>
+</div>
