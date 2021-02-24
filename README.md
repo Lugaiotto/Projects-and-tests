@@ -5,17 +5,15 @@ I'm just trying to share my new knowledge about programming  with my college fri
 Maybe you can find something useful,  feel free to ask if you find an error.I'll be very grateful to talk about it!
 
 
-
-
-      # Current Projects:
+# Current Projects:
       
-         # C/C#:
+  # C/C#:
               
-              - FizzBuzz Challenge  DONE :heavy_check_mark:
-              - TicTacToe Game  UNFINISHED :large_orange_diamond:
+   - FizzBuzz Challenge  DONE :heavy_check_mark:
+   - TicTacToe Game  UNFINISHED :large_orange_diamond:
         
-        # HTML/CSS:
+  # HTML/CSS:
               
-               - Survey Form Example Project  DONE :heavy_check_mark:
-               - Tribute Page Example Project :heavy_check_mark:      
+   - Survey Form Example Project  DONE :heavy_check_mark:
+   - Tribute Page Example Project :heavy_check_mark:      
       
