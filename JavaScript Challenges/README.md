@@ -1,6 +1,6 @@
 
  
-    # IMC (Indice de Massa Corporal / BMI (Body Mass Index    Calculator
+    # IMC (Indice de Massa Corporal / BMI (Body Mass Index Calculator
 
 
  - This project was created to test DOM components like:
