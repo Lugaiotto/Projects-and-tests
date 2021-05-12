@@ -3,7 +3,7 @@
     # IMC (Indice de Massa Corporal / BMI (Body Mass Index Calculator
 
 
- - This project was created to test DOM components like:
+ - This project was created for learning purposes to test DOM components like:
  
    * .querySelector
    * .AddEventListener
