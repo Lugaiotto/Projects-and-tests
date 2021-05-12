@@ -9,7 +9,7 @@
    * .AddEventListener
    * .preventDefault
    * .appendChild
-   * .innetHTML
+   * .innerHTML
    * .createElement  
    
    
